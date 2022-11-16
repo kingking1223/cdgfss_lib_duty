@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CDGFSS Lib Duty - Login</title>
+    <link rel="stylesheet" href="login_style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
 </head>
 <body>
-    <p>test</p>
+    <div class="form-box">
+        <h1>Login</h1>
+        <div class="input-box">
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="Username" id="usernameInput">
+        </div>
+        <div class="input-box">
+            <i class="fa fa-key"></i>
+            <input type="password" placeholder="Password" id="passwordInput">
+            <span class="eye" onclick="changeEyeIcon()">
+                <i id="hide1" class="fa fa-eye"></i>
+                <i id="hide2" class="fa fa-eye-slash"></i>
+            </span>
+        </div>
+        <!-- <button type="button" class="login-btn" onclick="login()">LOGIN</button> -->
+        <input type="submit" class="login-btn" value="LOGIN" onclick="login()">
+    </div>
+
+    <script src="login_script.js"></script>
+
 </body>
 </html>
