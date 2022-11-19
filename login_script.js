@@ -24,9 +24,9 @@ function login(){
     console.log(typeof password)
 
     if (username == "test" && password == "test2") {
-        alert("1");
+        window.open('/home.html')
         return false;
     } else {
-        alert("0");
+        alert("Invalid username or password.");
     }
 }
