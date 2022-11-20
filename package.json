@@ -1,0 +1,23 @@
+{
+  "name": "cdgfss_lib_duty",
+  "version": "1.0.0",
+  "description": "A website for the library of CDGFSS to record duty of student libarians.",
+  "main": "home_firebase_script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingking1223/cdgfss_lib_duty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingking1223/cdgfss_lib_duty/issues"
+  },
+  "homepage": "https://github.com/kingking1223/cdgfss_lib_duty#readme",
+  "dependencies": {
+    "firebase": "^9.14.0"
+  }
+}

@@ -17,15 +17,15 @@
                 </div>
             </div>
             <div class="sidebar">
-                <a href="#" class="active" onclick="reportForDuty()" id="report-btn">
+                <a href="#" class="active" id="report-btn" onclick="reportForDuty()">
                     <i class="fa fa-flag"></i>
                     <h3>Report for Duty</h3>
                 </a>
-                <a href="#" onclick="individuals()" id="individuals-btn">
+                <a href="#" id="individuals-btn" onclick="individuals()">
                     <i class="fa fa-users"></i>
                     <h3>Individuals</h3>
                 </a>
-                <a href="#" onclick="duties()" id="duties-btn">
+                <a href="#" id="duties-btn" onclick="duties()">
                     <i class="fa fa-sticky-note"></i>
                     <h3>Duties</h3>
                 </a>
@@ -37,7 +37,8 @@
         </aside>
         <main>
             <div class="report" id="report-tab">
-                <p>report</p>
+                <input type="number" placeholder="Your CDG number..." class="cdgno" id="cdgno">
+                <button id="report-duty-btn">Report for duty</button>
             </div>
             <div class="individuals" id="individuals-tab">
                 <p>individuals</p>
@@ -58,5 +59,6 @@
     </div>
 
     <script src="/home_script.js"></script>
+    <script src="/home_firebase_script.js"></script>
 </body>
 </html>
